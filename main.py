@@ -10,7 +10,7 @@ def flip(List, Index):
         List[Index] = 0
     else:
         print('error')
-    return print(List)
+    return List
 
 Index = int(input('enter bit to flip'))
-flip(thelist, Index)
+print(flip(thelist, Index))
